@@ -27,3 +27,19 @@ body {
     right: 20px;
     color: white;
   }
+
+  .mat-content {
+    margin-left: 23px !important;
+}
+  
+.mat-expansion-indicator {
+  position: absolute;
+}
+
+.mat-expansion-indicator::after {
+  transform: rotate(-45deg) !important;
+}
+
+.mat-expansion-indicator::before{
+  transform: rotate(91deg) !important;
+}
